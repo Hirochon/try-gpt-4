@@ -12,3 +12,5 @@ services:
       - ./:/go/src/
     ports:
       - "9090:9090"
+    environment:
+      - AUTH_TOKEN=${AUTH_TOKEN}
